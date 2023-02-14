@@ -6,8 +6,7 @@ Model 2020
 "pip install openai" in the shell
 
 # Api key 
-API KEY = "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"
-or you can get api key from openai.com
+you can get api key from https://platform.openai.com/account/api-keys
 
 # Run
 python chatgpt.py
