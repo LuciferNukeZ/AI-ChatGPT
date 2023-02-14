@@ -13,8 +13,7 @@ while True:
     if 'exit' in command or 'quit' in command:
         break
 
-    # Generate a response
-    completion = openai.Completion.create(
+    kalamkaar = openai.Completion.create(
         engine=model_engine,
         prompt=command,
         max_tokens=1024,
@@ -22,9 +21,8 @@ while True:
         stop=None,
         temperature=0.5,
     )
-
     
-    coders = completion.choices[0].text
+    coders = kalamkaar.choices[0].text
     
     
     print(coders)
