@@ -1,5 +1,6 @@
 # AI-ChatGPT
 An AI ChatGPT made in python
+Model 2020
 
 # Installation
 "pip install openai" in the shell
